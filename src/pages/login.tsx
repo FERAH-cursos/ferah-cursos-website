@@ -11,7 +11,6 @@ export default function Login() {
       </Head>
 
       <main className={styles.main}>
-        <div className={styles.content}>
         <div className={styles.loginContainer}>
           {/* <span>você não tem uma conta?<a href="#">Criar</a></span> */}
           <h1>Welcome to AOT </h1>
@@ -37,7 +36,6 @@ export default function Login() {
             <SocialLoginButton image="icons/google.svg" />
             <SocialLoginButton image="icons/twitter.svg" />
           </div>
-        </div>
         </div>
       </main>
 

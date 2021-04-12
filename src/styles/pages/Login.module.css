@@ -3,16 +3,8 @@
   justify-content: center;
   align-items: center;
   background: #f2f3f5;
-  height: 100vh;
-  width: 100vw;
-
-}
-
-.content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+  height: 100%;
+  width: 100%;
 
 }
 
@@ -23,7 +15,7 @@
   flex-direction: column;
 
   background: #fff;
-  padding: 5rem;
+  padding: 6rem;
   height: 100%;
 
 }
@@ -75,7 +67,7 @@
 .loginContainer form .inputGroup input:focus+label {
   top: -8px;
   background: #FFFF;
-  padding: 0 3px;
+  padding: 0 0.18rem;
   font-size: 0.8rem;
   color: #BFC1F9;
 }
@@ -83,7 +75,7 @@
 .loginContainer form .inputGroup input:valid+label {
   top: -8px;
   background: #FFFF;
-  padding: 0 3px;
+  padding: 0 0.18rem;
   font-size: 0.8rem;
   color: #D9DCFF;
 }
@@ -130,3 +122,11 @@
   justify-content: space-between;
 }
 
+@media(max-width: 720px) {
+  .loginContainer {
+    padding: 2rem;
+   
+  
+  }
+
+}
