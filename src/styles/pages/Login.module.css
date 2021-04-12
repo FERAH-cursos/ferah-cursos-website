@@ -3,8 +3,8 @@
   justify-content: center;
   align-items: center;
   background: #f2f3f5;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
 
 }
 
@@ -13,23 +13,21 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
+  width: 50rem;
   background: #fff;
   padding: 6rem;
-  height: 100%;
+
 
 }
-
+.loginContainer > img{
+  height: 12rem;
+}
 .loginContainer h1 {
   font-size: 3rem;
   margin-bottom: 2rem;
 }
 
-.loginContainer p {
-  font-size: 0.9rem;
-  text-align: start;
-  margin-bottom: 3rem;
-}
+
 
 .loginContainer form {
   display: flex;
@@ -38,7 +36,7 @@
 }
 
 .loginContainer .inputGroup {
-  margin: 1rem 0 1rem;
+  margin: 0.5rem 0 0.5rem;
   position: relative;
 }
 
@@ -86,6 +84,7 @@
   padding: 1rem;
   color: #ffff;
   border-radius: 5px;
+  margin-top: 1rem;
   margin-bottom:2rem;
 
 }
@@ -124,9 +123,18 @@
 
 @media(max-width: 720px) {
   .loginContainer {
-    padding: 2rem;
-   
-  
-  }
 
+    padding: 2rem;
+    height: 100%;
+    width: 100%;
+   
+  }
+  .loginContainer > img{
+    height: 8rem;
+  }
+  .loginContainer h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
 }

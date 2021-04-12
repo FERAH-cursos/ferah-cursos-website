@@ -1,14 +1,22 @@
 .socialLoginButton {
     border: none;
     background: #fff;
-    height:3rem;
-    width: 6rem;
+    height: 4rem;
+    width: 7rem;
     color: #ffff;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.socialLoginButton img{
+.socialLoginButton img {
     height: 60%;
 }
 
+@media(max-width: 720px) {
+    .socialLoginButton {
+        height: 3rem;
+        width: 4rem;
+    }
+
+
+}
